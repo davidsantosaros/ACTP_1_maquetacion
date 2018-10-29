@@ -1,0 +1,207 @@
+/* Global Styles */
+
+h1, h2, h3 {
+  font-family: 'raley', bold;
+}
+p, li, a, small {
+  font-family: 'OpenSans', regular;
+}
+
+p {
+  color: color: #707070;
+}
+
+  /* Navbar */
+  
+  .navbar_tia-tomate {
+    background-color: #fafafa
+    color: hsla(0, 100%, 100%, 0.52);
+  }
+  .icon-bar {
+    background-color:#686963;
+  }
+  
+  .navbar-brand img {
+    max-width: 120px;
+  }
+  
+  .navbar-nav > li > a{
+    color: #686963;
+    text-shadow: none;
+    
+  }
+  .nav > li > a:hover {
+    background-color: #686963;
+    color:#e56353;
+  }
+  
+  .navbar {
+    margin-bottom: 0;
+  }
+  
+    /* Header */
+  
+  .header_tia-tomate {
+    background-color: #e56353;
+    background-size: cover;
+    text-align: center;
+    height: 400px;
+    padding-top: 110px;
+    background-position: right bottom;
+  }
+  
+  .header_tia-tomate h1 {
+    color: #ffffff;
+    font-size: 5em;
+  }
+  
+  .header_tia-tomate p {
+    color:#ffffff;
+    line-height: 22px;
+    padding: 1rem 30vw;
+  }
+  
+  @media only screen and (max-width : 767px) {
+  
+    .header_tia-tomate {
+      height: 250px;
+      padding-top: 60px;
+      background-position: center;
+    }
+  
+    .header_tia-tomate h1 {
+      font-size: 3em;
+    }
+  
+    .header_tia-tomate p {
+      padding: 1rem 4rem;
+    }
+  
+  }
+
+  /* Portfolio */
+  
+  .portfolio {
+    text-align: center;
+    padding-top: 4rem;
+    margin: 0;
+    margin-top: -40px;
+  }
+  
+  .portfolio h2 {
+    font-size: 3em;
+    
+  }
+  
+  .portfolio p {
+    padding: 1rem 24vw;
+  }
+  
+  /* .portfolio > hr {
+    visibility: hidden;
+  } */
+  .portfolio_background{
+    background-color: #707070;
+    
+    
+  }
+  .portfolio__inner {
+    text-align: left;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10vh 5vw 0 5vw;
+  }
+  
+  .portfolio__inner h3 {
+    font-size: 2.8em;
+  }
+  
+  .portfolio__inner p {
+    padding: 1rem 8vw 1rem 0;
+  }
+  
+  
+  .portfolio__inner__image-top {
+    background-image: url("../img/img-history.png");
+  }
+  
+  .portfolio__inner__image-bottom {
+    background-image: url("../img/our-tomatoes.png");
+  }
+  
+  @media only screen and (max-width : 767px) {
+    .portfolio_background{
+      margin-top: -40px;
+      
+    }
+  
+    .portfolio {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      margin-top: 0;
+    }
+  
+    .portfolio h2 {
+      font-size: 2em;
+    }
+  
+    .portfolio p {
+      padding: 2rem 10vw 1rem 10vw;
+    }
+  
+    .portfolio hr {
+      /* visibility: visible; */
+      margin-top: 0;
+      margin-bottom: 0;
+      width: 100px;
+    }
+  
+    .portfolio__inner {
+      padding: 10vw 2rem 4rem 15vw;
+      height: auto;
+    }
+  
+    .portfolio__inner h3 {
+      font-size: 1.5em;
+    }
+  
+    .portfolio__inner p {
+      padding: 1rem 8vw 1rem 0;
+    }
+  
+    .portfolio__inner__image-top, .portfolio__inner__image-bottom {
+      display: none;
+    }
+  
+  }
+
+.nosotros{
+  background-color: #e56353;
+  text-align: center;
+  height: 170px;
+  padding-top: 70px;
+  background-position: right bottom;
+  color: white;
+}
+
+.button_tia-tomate {
+  color: white;
+  background-color: #325DFF;
+  border-radius: 5%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  position: relative;
+}
+
+
+.click_aqui{
+  background-color: #e56353;
+  text-align: center;
+  height: 170px;
+  padding-top: 50px;
+  background-position: right bottom;
+  color: white;
+}
