@@ -31,13 +31,13 @@
 
 - sketch de la versión escritorio y móvil.
 
-(version_desktop.jpg)
+ [aquí](version_desktop.jpg)
 
-(version_movil.jpg)
+[aquí](version_movil.jpg)
 
-(Hoja_estilos.jpg)
+[aquí](Hoja_estilos.jpg)
 
-(estructura_directorio.jpg)
+[aquí](estructura_directorio.jpg)
 
 
 
