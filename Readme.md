@@ -29,11 +29,15 @@
          para buscar iconos similares al mockup usar Font-Awesome
 
 
-- sketch de la versión escritorio y móvil.
+- sketch de la versión escritorio 
 
  ![aquí](Assets/img/version_desktop.jpg)
 
+- sketch de la versión Movil
+
 ![aquí](Assets/img/version_movil.jpg)
+
+- Estilos Metodología BEM
 
 ![aquí](Assets/img/Hoja_estilos.jpg)
 
